@@ -1,0 +1,10 @@
+version = 0.1
+[develop.deploy.parameters]
+stack_name = "api"
+resolve_s3 = true
+s3_prefix = "api"
+region = "us-east-1"
+profile = "user_lambda"
+confirm_changeset = false
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
